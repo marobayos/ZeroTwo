@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.MainFrame">
+  <grid id="27dc6" binding="panel1" custom-create="true" default-binding="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="18" y="16" width="419" height="440"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-13422030"/>
+    </properties>
+    <border type="none">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="4010c" class="javax.swing.JButton" binding="rightButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="right.png"/>
+          <iconTextGap value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="222f8" class="javax.swing.JButton" binding="leftButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-12828863"/>
+          <foreground color="-12828863"/>
+          <hideActionText value="true"/>
+          <icon value="left.png"/>
+          <iconTextGap value="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a5cf6" class="javax.swing.JButton" binding="backButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="back.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6ced2" class="javax.swing.JButton" binding="frontButton" custom-create="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <icon value="front.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
